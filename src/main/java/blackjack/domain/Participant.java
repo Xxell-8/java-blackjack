@@ -22,7 +22,7 @@ public class Participant {
     }
 
     public int getScore() {
-        return cards.getScore();
+        return cards.getScore().get();
     }
 
     public boolean isBusted() {

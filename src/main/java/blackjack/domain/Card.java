@@ -13,6 +13,10 @@ public class Card {
         return denomination;
     }
 
+    public int getScore() {
+        return denomination.getScore();
+    }
+
     @Override
     public String toString() {
         return denomination.getAlias() + suit.getName();
